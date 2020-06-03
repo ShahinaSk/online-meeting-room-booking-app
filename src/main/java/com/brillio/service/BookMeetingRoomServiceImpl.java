@@ -29,7 +29,7 @@ public class BookMeetingRoomServiceImpl implements BookMeetingRoomService {
             room.setAvailable(false);
             roomService.updateRoomAvailability(roomId);
             Random random=new Random();
-            bookMeetingRoom.setBookingId(random.nextInt());
+            bookMeetingRoom.setBookingId(random.nextInt(Integer.MAX_VALUE));
             bookMeetingRoom.setBookingStatus(true);
             bookMeetingRoomRepository.save(bookMeetingRoom);
             System.out.println(bookMeetingRoom);
