@@ -1,0 +1,70 @@
+[
+  {
+    "roomId": 1,
+    "roomType": "4-seater",
+    "floor": {
+      "floorNo": 1,
+      "building": {
+        "buildingName": "4A"
+      }
+    },
+    "available": true
+  },
+  {
+    "roomId": 2,
+    "roomType": "8-seater",
+    "floor": {
+      "floorNo": 1,
+      "building": {
+        "buildingName": "4A"
+      }
+    },
+    "available": true
+  },
+  {
+    "roomId": 3,
+    "roomType": "4-seater",
+    "floor": {
+      "floorNo": 2,
+      "building": {
+        "buildingName": "4A"
+      }
+    },
+    "available": true
+  },
+  {
+    "roomId": 4,
+    "roomType": "8-seater",
+    "floor": {
+      "floorNo": 2,
+      "building": {
+        "buildingName": "4A"
+      }
+    },
+    "available": true
+  },
+  {
+    "roomId": 5,
+    "roomType": "4-seater",
+    "floor": {
+      "floorNo": 2,
+      "building": {
+        "buildingName": "4A"
+      }
+    },
+    "available": true
+  },
+  {
+    "roomId": 6,
+    "roomType": "8-seater",
+    "floor": {
+      "floorNo": 2,
+      "building": {
+        "buildingName": "4A"
+      }
+    },
+    "available": true
+  }
+]
+
+
