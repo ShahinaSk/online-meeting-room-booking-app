@@ -63,9 +63,7 @@ public class RoomServiceImpl implements RoomService {
                 room.setAvailable(false);
             else room.setAvailable(true);
             roomRepository.save(room);
-            System.out.println(room);
         }
-        System.out.println(room);
         return room;
     }
 }

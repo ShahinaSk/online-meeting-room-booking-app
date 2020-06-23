@@ -32,7 +32,6 @@ public class BookMeetingRoomServiceImpl implements BookMeetingRoomService {
             bookMeetingRoom.setBookingId(random.nextInt(Integer.MAX_VALUE));
             bookMeetingRoom.setBookingStatus(true);
             bookMeetingRoomRepository.save(bookMeetingRoom);
-            System.out.println(bookMeetingRoom);
             return bookMeetingRoom;
         }
         return null;
