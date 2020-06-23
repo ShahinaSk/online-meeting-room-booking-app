@@ -1,4 +1,14 @@
-## online-meeting-room-booking-app
+## Online-Meeting-Room-Booking-App
+
+#### Problem Statement
+A company has multiple buildings (offices); each building has multiple floors; and each floor has multiple meeting rooms.
+Meeting rooms are of 2 types: 4 seater and 8 seater
+Multiple employees will try to book meeting rooms online at the same time. Conflicts should be handled.
+
+###### REST APIs to be implemented -
+1.	List Available Rooms: Lists all available meeting rooms (with id, name etc), given the meeting room type building name, and floor (optional)
+2.	Make Booking: Books the meeting room having the specified id. It returns success/failure. If successful, returns a booking reference id.
+3.	Cancel Booking: Removes booking for specified reference id.
 
 #### **Steps for installation & Running the Application:**
 1. Create an empty directory
